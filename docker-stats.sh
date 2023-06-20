@@ -1,0 +1,1 @@
+while true; do docker stats --no-stream | grep hasura-export-csv-example-nextjs-1 | awk '{print $4}' | sed -e 's/MiB//g' >> data.txt; done

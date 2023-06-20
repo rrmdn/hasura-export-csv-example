@@ -1,0 +1,6 @@
+dist
+out
+node_modules
+*.log
+*.log.*
+.next

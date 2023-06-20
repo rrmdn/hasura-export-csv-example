@@ -1,0 +1,11 @@
+table:
+  name: forms
+  schema: public
+array_relationships:
+  - name: responses
+    using:
+      foreign_key_constraint_on:
+        column: form_id
+        table:
+          name: responses
+          schema: public
